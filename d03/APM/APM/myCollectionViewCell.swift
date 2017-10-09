@@ -12,4 +12,5 @@ class myCollectionViewCell: UICollectionViewCell {
     
 	@IBOutlet weak var myImageView: UIImageView!
 	@IBOutlet weak var downloadIndicator: UIActivityIndicatorView!
+    var imageName : String = ""
 }

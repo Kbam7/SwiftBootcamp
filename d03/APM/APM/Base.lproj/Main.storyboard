@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RxV-js-FpG">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RxV-js-FpG">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--APM Gallery-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="APM" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +19,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rEr-7F-5hx">
-                                <rect key="frame" x="0.0" y="101" width="375" height="566"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rHw-Ej-jFx">
                                     <size key="itemSize" width="100" height="100"/>
@@ -38,11 +34,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dde-js-fYk">
-                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dde-js-fYk"/>
                                                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="kRq-RN-T28">
-                                                    <rect key="frame" x="32" y="32" width="37" height="37"/>
                                                     <color key="color" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </activityIndicatorView>
                                             </subviews>
@@ -67,28 +60,18 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="c2x-Hr-ait"/>
                                 </connections>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPB-MR-19D">
-                                <rect key="frame" x="135" y="64" width="105" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="105" id="EQM-QN-wQO"/>
-                                    <constraint firstAttribute="height" constant="21" id="ru1-1B-qCc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="rEr-7F-5hx" firstAttribute="top" secondItem="JPB-MR-19D" secondAttribute="bottom" constant="16" id="1jI-JP-Bl9"/>
-                            <constraint firstAttribute="bottom" secondItem="rEr-7F-5hx" secondAttribute="bottom" id="HrF-Cu-dHI"/>
-                            <constraint firstItem="JPB-MR-19D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L5S-aX-SqR"/>
+                            <constraint firstItem="rEr-7F-5hx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ed8-7v-oqZ"/>
+                            <constraint firstItem="rEr-7F-5hx" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="HrF-Cu-dHI"/>
                             <constraint firstItem="rEr-7F-5hx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gXg-24-0Oy"/>
-                            <constraint firstAttribute="trailing" secondItem="rEr-7F-5hx" secondAttribute="trailing" id="gbV-mJ-Aw3"/>
-                            <constraint firstItem="JPB-MR-19D" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pQM-34-Tf8"/>
+                            <constraint firstItem="rEr-7F-5hx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="gbV-mJ-Aw3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="zxS-Tk-mFC"/>
+                    <navigationItem key="navigationItem" title="APM Gallery" id="zxS-Tk-mFC">
+                        <barButtonItem key="backBarButtonItem" title=" " id="AXD-z7-ZVE"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="myCollectionView" destination="rEr-7F-5hx" id="hZE-bS-AQw"/>
                     </connections>
@@ -97,7 +80,7 @@
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="83.208395802098963"/>
         </scene>
-        <!--Scroll View Controller-->
+        <!--Default Title-->
         <scene sceneID="HvB-EZ-oax">
             <objects>
                 <viewController id="sx2-cw-MSq" customClass="scrollViewController" customModule="APM" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,18 +92,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFZ-Ss-MNr">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFZ-Ss-MNr"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MFZ-Ss-MNr" firstAttribute="centerY" secondItem="QTv-kS-kQM" secondAttribute="centerY" id="2eu-bk-gpz"/>
-                            <constraint firstItem="MFZ-Ss-MNr" firstAttribute="height" secondItem="QTv-kS-kQM" secondAttribute="height" id="Tqd-0G-FC9"/>
+                            <constraint firstItem="MFZ-Ss-MNr" firstAttribute="top" secondItem="W0z-yy-aat" secondAttribute="bottom" id="Sk7-Gw-8zE"/>
                             <constraint firstItem="MFZ-Ss-MNr" firstAttribute="width" secondItem="QTv-kS-kQM" secondAttribute="width" id="VnO-6q-RJI"/>
+                            <constraint firstItem="ZJK-dU-uzR" firstAttribute="top" secondItem="MFZ-Ss-MNr" secondAttribute="bottom" id="gxS-Ee-ZwN"/>
                             <constraint firstItem="MFZ-Ss-MNr" firstAttribute="centerX" secondItem="QTv-kS-kQM" secondAttribute="centerX" id="zMa-th-EPK"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Default Title" id="0fz-Qb-jQ2"/>
                     <connections>
                         <outlet property="myScrollView" destination="MFZ-Ss-MNr" id="cxJ-1P-Kvj"/>
                     </connections>

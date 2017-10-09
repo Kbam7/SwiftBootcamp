@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		796687A21F8A9FDC0026DEE9 /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796687A11F8A9FDC0026DEE9 /* scrollViewController.swift */; };
-		BFB807A81F8A3BB7001055B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB807A71F8A3BB7001055B1 /* AppDelegate.swift */; };
-		BFB807AA1F8A3BB7001055B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB807A91F8A3BB7001055B1 /* ViewController.swift */; };
-		BFB807AD1F8A3BB7001055B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB807AB1F8A3BB7001055B1 /* Main.storyboard */; };
-		BFB807AF1F8A3BB7001055B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB807AE1F8A3BB7001055B1 /* Assets.xcassets */; };
-		BFB807B21F8A3BB7001055B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB807B01F8A3BB7001055B1 /* LaunchScreen.storyboard */; };
-		BFB807BA1F8A3E6A001055B1 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB807B91F8A3E6A001055B1 /* myCollectionViewCell.swift */; };
+		BF2083C01F8BA84D000A7CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2083BF1F8BA84D000A7CCD /* AppDelegate.swift */; };
+		BF2083C21F8BA84D000A7CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2083C11F8BA84D000A7CCD /* ViewController.swift */; };
+		BF2083C51F8BA84D000A7CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2083C31F8BA84D000A7CCD /* Main.storyboard */; };
+		BF2083C71F8BA84D000A7CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2083C61F8BA84D000A7CCD /* Assets.xcassets */; };
+		BF2083CA1F8BA84D000A7CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2083C81F8BA84D000A7CCD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		796687A11F8A9FDC0026DEE9 /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
-		BFB807A41F8A3BB7001055B1 /* APM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB807A71F8A3BB7001055B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB807A91F8A3BB7001055B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFB807AC1F8A3BB7001055B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFB807AE1F8A3BB7001055B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFB807B11F8A3BB7001055B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFB807B31F8A3BB7001055B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFB807B91F8A3E6A001055B1 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF2083BC1F8BA84D000A7CCD /* Tweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2083BF1F8BA84D000A7CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF2083C11F8BA84D000A7CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF2083C41F8BA84D000A7CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2083C61F8BA84D000A7CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2083C91F8BA84D000A7CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2083CB1F8BA84D000A7CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFB807A11F8A3BB7001055B1 /* Frameworks */ = {
+		BF2083B91F8BA84D000A7CCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFB8079B1F8A3BB7001055B1 = {
+		BF2083B31F8BA84D000A7CCD = {
 			isa = PBXGroup;
 			children = (
-				BFB807A61F8A3BB7001055B1 /* APM */,
-				BFB807A51F8A3BB7001055B1 /* Products */,
+				BF2083BE1F8BA84D000A7CCD /* Tweets */,
+				BF2083BD1F8BA84D000A7CCD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFB807A51F8A3BB7001055B1 /* Products */ = {
+		BF2083BD1F8BA84D000A7CCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB807A41F8A3BB7001055B1 /* APM.app */,
+				BF2083BC1F8BA84D000A7CCD /* Tweets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFB807A61F8A3BB7001055B1 /* APM */ = {
+		BF2083BE1F8BA84D000A7CCD /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
-				796687A11F8A9FDC0026DEE9 /* scrollViewController.swift */,
-				BFB807A71F8A3BB7001055B1 /* AppDelegate.swift */,
-				BFB807A91F8A3BB7001055B1 /* ViewController.swift */,
-				BFB807AB1F8A3BB7001055B1 /* Main.storyboard */,
-				BFB807B91F8A3E6A001055B1 /* myCollectionViewCell.swift */,
-				BFB807AE1F8A3BB7001055B1 /* Assets.xcassets */,
-				BFB807B01F8A3BB7001055B1 /* LaunchScreen.storyboard */,
-				BFB807B31F8A3BB7001055B1 /* Info.plist */,
+				BF2083BF1F8BA84D000A7CCD /* AppDelegate.swift */,
+				BF2083C11F8BA84D000A7CCD /* ViewController.swift */,
+				BF2083C31F8BA84D000A7CCD /* Main.storyboard */,
+				BF2083C61F8BA84D000A7CCD /* Assets.xcassets */,
+				BF2083C81F8BA84D000A7CCD /* LaunchScreen.storyboard */,
+				BF2083CB1F8BA84D000A7CCD /* Info.plist */,
 			);
-			path = APM;
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFB807A31F8A3BB7001055B1 /* APM */ = {
+		BF2083BB1F8BA84D000A7CCD /* Tweets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFB807B61F8A3BB7001055B1 /* Build configuration list for PBXNativeTarget "APM" */;
+			buildConfigurationList = BF2083CE1F8BA84D000A7CCD /* Build configuration list for PBXNativeTarget "Tweets" */;
 			buildPhases = (
-				BFB807A01F8A3BB7001055B1 /* Sources */,
-				BFB807A11F8A3BB7001055B1 /* Frameworks */,
-				BFB807A21F8A3BB7001055B1 /* Resources */,
+				BF2083B81F8BA84D000A7CCD /* Sources */,
+				BF2083B91F8BA84D000A7CCD /* Frameworks */,
+				BF2083BA1F8BA84D000A7CCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = APM;
-			productName = APM;
-			productReference = BFB807A41F8A3BB7001055B1 /* APM.app */;
+			name = Tweets;
+			productName = Tweets;
+			productReference = BF2083BC1F8BA84D000A7CCD /* Tweets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFB8079C1F8A3BB7001055B1 /* Project object */ = {
+		BF2083B41F8BA84D000A7CCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Kyle BAMPING";
 				TargetAttributes = {
-					BFB807A31F8A3BB7001055B1 = {
+					BF2083BB1F8BA84D000A7CCD = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BFB8079F1F8A3BB7001055B1 /* Build configuration list for PBXProject "APM" */;
+			buildConfigurationList = BF2083B71F8BA84D000A7CCD /* Build configuration list for PBXProject "Tweets" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BFB8079B1F8A3BB7001055B1;
-			productRefGroup = BFB807A51F8A3BB7001055B1 /* Products */;
+			mainGroup = BF2083B31F8BA84D000A7CCD;
+			productRefGroup = BF2083BD1F8BA84D000A7CCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFB807A31F8A3BB7001055B1 /* APM */,
+				BF2083BB1F8BA84D000A7CCD /* Tweets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFB807A21F8A3BB7001055B1 /* Resources */ = {
+		BF2083BA1F8BA84D000A7CCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB807B21F8A3BB7001055B1 /* LaunchScreen.storyboard in Resources */,
-				BFB807AF1F8A3BB7001055B1 /* Assets.xcassets in Resources */,
-				BFB807AD1F8A3BB7001055B1 /* Main.storyboard in Resources */,
+				BF2083CA1F8BA84D000A7CCD /* LaunchScreen.storyboard in Resources */,
+				BF2083C71F8BA84D000A7CCD /* Assets.xcassets in Resources */,
+				BF2083C51F8BA84D000A7CCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFB807A01F8A3BB7001055B1 /* Sources */ = {
+		BF2083B81F8BA84D000A7CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB807BA1F8A3E6A001055B1 /* myCollectionViewCell.swift in Sources */,
-				BFB807AA1F8A3BB7001055B1 /* ViewController.swift in Sources */,
-				BFB807A81F8A3BB7001055B1 /* AppDelegate.swift in Sources */,
-				796687A21F8A9FDC0026DEE9 /* scrollViewController.swift in Sources */,
+				BF2083C21F8BA84D000A7CCD /* ViewController.swift in Sources */,
+				BF2083C01F8BA84D000A7CCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFB807AB1F8A3BB7001055B1 /* Main.storyboard */ = {
+		BF2083C31F8BA84D000A7CCD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB807AC1F8A3BB7001055B1 /* Base */,
+				BF2083C41F8BA84D000A7CCD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BFB807B01F8A3BB7001055B1 /* LaunchScreen.storyboard */ = {
+		BF2083C81F8BA84D000A7CCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB807B11F8A3BB7001055B1 /* Base */,
+				BF2083C91F8BA84D000A7CCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BFB807B41F8A3BB7001055B1 /* Debug */ = {
+		BF2083CC1F8BA84D000A7CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		BFB807B51F8A3BB7001055B1 /* Release */ = {
+		BF2083CD1F8BA84D000A7CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,27 +256,25 @@
 			};
 			name = Release;
 		};
-		BFB807B71F8A3BB7001055B1 /* Debug */ = {
+		BF2083CF1F8BA84D000A7CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = APM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = Tweets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbam7.APM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbam7.Tweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		BFB807B81F8A3BB7001055B1 /* Release */ = {
+		BF2083D01F8BA84D000A7CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = APM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = Tweets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kbam7.APM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbam7.Tweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -293,25 +283,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFB8079F1F8A3BB7001055B1 /* Build configuration list for PBXProject "APM" */ = {
+		BF2083B71F8BA84D000A7CCD /* Build configuration list for PBXProject "Tweets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB807B41F8A3BB7001055B1 /* Debug */,
-				BFB807B51F8A3BB7001055B1 /* Release */,
+				BF2083CC1F8BA84D000A7CCD /* Debug */,
+				BF2083CD1F8BA84D000A7CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFB807B61F8A3BB7001055B1 /* Build configuration list for PBXNativeTarget "APM" */ = {
+		BF2083CE1F8BA84D000A7CCD /* Build configuration list for PBXNativeTarget "Tweets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB807B71F8A3BB7001055B1 /* Debug */,
-				BFB807B81F8A3BB7001055B1 /* Release */,
+				BF2083CF1F8BA84D000A7CCD /* Debug */,
+				BF2083D01F8BA84D000A7CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFB8079C1F8A3BB7001055B1 /* Project object */;
+	rootObject = BF2083B41F8BA84D000A7CCD /* Project object */;
 }

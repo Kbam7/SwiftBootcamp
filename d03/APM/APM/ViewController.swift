@@ -26,6 +26,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 			"https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/34253921331_aec575a398_o.jpg",
 			"https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/33204101741_4feb9a2c38_o.jpg"
 		]
+// For loading local images
+//        [
+//            "/Users/richard/Desktop/33204101741_4feb9a2c38_o.jpg",
+//            "/Users/richard/Desktop/33204101741_4feb9a2c38_o.jpg",
+//            "/Users/richard/Desktop/33204101741_4feb9a2c38_o.jpg",
+//            "/Users/richard/Desktop/33204101741_4feb9a2c38_o.jpg",
+//            "/Users/richard/Desktop/33204101741_4feb9a2c38_o.jpg"
+//        ]
+    
 
 	// Array of NSURL Objects
 	var urls : [NSURL]!
@@ -63,7 +72,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! myCollectionViewCell
 
-		print("\(indexPath.row) - \(urls[indexPath.row])")
+		print("\(indexPath.row) - \(imageURLs[indexPath.row])")
+        
+        // TEMP -- Added for using local files
+        //cell.myImageView.image = UIImage(contentsOfFile: imageURLs[indexPath.row])
 
 		// Show activity indicator
 		cell.downloadIndicator.startAnimating()
@@ -71,7 +83,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
 		// Enable Network indicator
 		UIApplication.shared.isNetworkActivityIndicatorVisible = true
-
+        
 		// Download image - Asynchronously
 		URLSession.shared.dataTask(with: urls[indexPath.row] as URL, completionHandler: {
 			(data, resp, error) -> Void in
@@ -89,7 +101,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 						OperationQueue.main.addOperation({
 							cell.downloadIndicator.stopAnimating()
 							cell.downloadIndicator.isHidden = true
-							cell.myImageView.image = UIImage(data: data!)
+                            
+                            cell.imageName = (resp?.suggestedFilename)!
+                            cell.myImageView.image = UIImage(data: data!)
+                            
 						})
 					} else {
 						cell.downloadIndicator.stopAnimating()
@@ -126,8 +141,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		// Get the new view controller using segue.destinationViewController.
 		let destVC = segue.destination as? scrollViewController
-		let og = sender as? myCollectionViewCell
-		destVC?.image = og?.myImageView.image
+		let selectedCell = sender as? myCollectionViewCell
+        destVC?.imageName = selectedCell?.imageName
+		destVC?.image = selectedCell?.myImageView.image
 
 	}
 
