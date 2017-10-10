@@ -18,7 +18,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
 
 	@IBOutlet weak var locationsTableView: UITableView!
 	var locations : [Location] = [
-									Location(title: "Place One", subtitle: "This is some info", coords: "0.0, 0.0"),
+									Location(title: "WeThinkCode_", subtitle: "This is some info", coords: "-26.2049337,28.0379703"),
 									Location(title: "Place Two", subtitle: "This is some info", coords: "0.0, 0.0"),
 									Location(title: "Place Three", subtitle: "This is some info", coords: "0.0, 0.0")
 	                              ]
