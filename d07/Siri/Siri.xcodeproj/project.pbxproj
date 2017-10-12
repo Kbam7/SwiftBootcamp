@@ -12,6 +12,7 @@
 		BF98F5ED1F8E401600F4859D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF98F5EB1F8E401600F4859D /* Main.storyboard */; };
 		BF98F5EF1F8E401600F4859D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF98F5EE1F8E401600F4859D /* Assets.xcassets */; };
 		BF98F5F21F8E401600F4859D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF98F5F01F8E401600F4859D /* LaunchScreen.storyboard */; };
+		BFC482DE1F8F8F4500C35BE2 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC482DD1F8F8F4500C35BE2 /* JSON.swift */; };
 		F79F79C2A63C1F37C6416A5F /* Pods_Siri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7408CFAA42301778AAF2A46D /* Pods_Siri.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		BF98F5EE1F8E401600F4859D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF98F5F11F8E401600F4859D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF98F5F31F8E401600F4859D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC482DD1F8F8F4500C35BE2 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		BF98F5E61F8E401600F4859D /* Siri */ = {
 			isa = PBXGroup;
 			children = (
+				BFC482DD1F8F8F4500C35BE2 /* JSON.swift */,
 				BF98F5E71F8E401600F4859D /* AppDelegate.swift */,
 				BF98F5E91F8E401600F4859D /* ViewController.swift */,
 				BF98F5EB1F8E401600F4859D /* Main.storyboard */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC482DE1F8F8F4500C35BE2 /* JSON.swift in Sources */,
 				BF98F5EA1F8E401600F4859D /* ViewController.swift in Sources */,
 				BF98F5E81F8E401600F4859D /* AppDelegate.swift in Sources */,
 			);
@@ -388,6 +392,7 @@
 				BF98F5F81F8E401600F4859D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

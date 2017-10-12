@@ -55,8 +55,8 @@ class APIController {
 			else if let d = data {
 				do {
 					print("------- DATA -------\n\(try JSONSerialization.jsonObject(with: d))")
-//					if let dic: NSDictionary = try JSONSerialization.jsonObject(with: d, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
-					if let dic = try JSONSerialization.jsonObject(with: d) as  {
+					if let dic: NSDictionary = try JSONSerialization.jsonObject(with: d, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
+//					if let dic = try JSONSerialization.jsonObject(with: d) as  {
 						print("------- DATA -------\n\(dic)")
 						print(dic.allKeys)
 
